@@ -485,7 +485,10 @@ body.active { overflow-y: hidden; }
   font-size: 25px;
   --ionicon-stroke-width: 45px;
 }
+.video{
+  width:350px;
 
+}
 
 
 
@@ -679,7 +682,7 @@ body.active { overflow-y: hidden; }
 
 .gears-card .card-banner {
   position: relative;
-  background: url("../images/gears-card-bg.png") no-repeat;
+  background: url("../images/gears-img-1.png") no-repeat;
   background-size: contain;
   background-position: center;
   width: 100%;
@@ -688,6 +691,18 @@ body.active { overflow-y: hidden; }
   place-items: center;
   margin-bottom: 30px;
 }
+.gears-card .card-banner1 {
+  position: relative;
+  background: url("../images/city.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 2 / 1.7;
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+}
+
 
 .gears .card-banner a { width: 100%; }
 
@@ -1359,7 +1374,7 @@ body.active { overflow-y: hidden; }
  * responsive larger than 1024px
  */
 
-@media (min-width: 1024px) {
+@media (min-width: 798px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1381,9 +1396,9 @@ body.active { overflow-y: hidden; }
    * REUSED STYLE
    */
 
-  .container { max-width: 1000px; }
+  .container { width: 100%;}
 
-  .has-scrollbar::-webkit-scrollbar-button { width: 200px; }
+  .has-scrollbar::-webkit-scrollbar-button {  }
 
 
 
