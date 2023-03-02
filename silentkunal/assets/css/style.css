@@ -88,7 +88,7 @@
   #RESET
 \*-----------------------------------*/
 
-*, *::before, *::after {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -1199,7 +1199,7 @@ body.active { overflow-y: hidden; }
 
   .container { max-width: 700px; }
 
-  .has-scrollbar::-webkit-scrollbar-button { width: 150px; }
+  .has-scrollbar::-webkit-scrollbar-button { width: 0px; }
 
 
 
@@ -1273,7 +1273,7 @@ body.active { overflow-y: hidden; }
 
   .gallery-list { padding-bottom: 30px; }
 
-  .gallery-list li { min-width: 70%; }
+  .gallery-list li { min-width: 100%; }
 
 
 
