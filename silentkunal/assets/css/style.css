@@ -206,6 +206,9 @@ body.active { overflow-y: hidden; }
   clip-path: var(--polygon-1);
   transition: var(--transition-1);
 }
+.pic{
+  border-radius: 50%;
+}
 
 .btn-primary { background: var(--orange); }
 
