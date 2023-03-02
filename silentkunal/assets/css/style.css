@@ -39,7 +39,7 @@
   --ff-oswald: 'Oswald', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
 
-  --fs-1: 54px;
+ /**--fs-1: 54px;*/
   --fs-2: 34px;
   --fs-3: 30px;
   --fs-4: 26px;
@@ -1077,7 +1077,7 @@ body.active { overflow-y: hidden; }
      * typography
      */
 
-    --fs-1: 70px;
+ 
 
   }
 
@@ -1103,8 +1103,8 @@ body.active { overflow-y: hidden; }
      * typography
      */
 
-    --fs-1: 90px;
-    --fs-2: 45px;
+   /** --fs-1: 90px;
+    --fs-2: 45px;*/
 
   }
 
