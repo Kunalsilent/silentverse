@@ -135,8 +135,9 @@ body.active { overflow-y: hidden; }
   background: var(--orange);
   border-radius: 10px;
 }
-
-
+.logo{
+  color: rgb(204, 113, 9);
+}
 
 
 
@@ -487,7 +488,7 @@ body.active { overflow-y: hidden; }
 }
 .video{
   width:350px;
-  height:300px;
+  height:300px
 
 }
 
