@@ -487,6 +487,7 @@ body.active { overflow-y: hidden; }
 }
 .video{
   width:350px;
+  height:300px;
 
 }
 
